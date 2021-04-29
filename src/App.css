@@ -17,6 +17,33 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.header{
+  display:flex;
+background-color: brown;
+height:100px;
+justify-content: space-between;
+
+
+}
+.header-title{
+font-size:20px;
+font-weight:bold;
+padding:30px;
+}
+
+.footer{
+background-color: brown;
+height:100px;
+
+}
+
+.lists{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.product-list{
+  list-style: none;
+  padding: 1rem;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Data from './Data.json'
 import Products from './components/Products'
+import './App.css';
 
 export default class App extends Component {
   constructor() {
@@ -17,7 +18,9 @@ export default class App extends Component {
     return (
       <div>
         <header className="header">
-          Product Shopping list
+          <h1 className="header-title">Product Shopping list</h1>
+          <h1 className="header-title">Admin</h1>
+
         </header>
         <main>
           <div className="main">
@@ -25,7 +28,7 @@ export default class App extends Component {
 
           </div>
         </main>
-        <footer>
+        <footer className="footer">
           all right reserved
         </footer>
 
